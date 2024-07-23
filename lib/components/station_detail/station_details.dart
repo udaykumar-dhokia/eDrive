@@ -13,8 +13,8 @@ void showStationDetails(BuildContext context, Map<String, dynamic> data) {
     }
   }
 
-
   showModalBottomSheet(
+    backgroundColor: white,
     context: context,
     builder: (BuildContext context) {
       return Padding(
@@ -26,13 +26,16 @@ void showStationDetails(BuildContext context, Map<String, dynamic> data) {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Text(
-                  data['name'] ?? 'No Name',
-                  style: GoogleFonts.quicksand(
-                      textStyle: const TextStyle(
-                        fontWeight: FontWeight.bold,
-                        fontSize: 20,
-                      )),
+                Expanded(
+                  child: Text(
+                    overflow: TextOverflow.ellipsis,
+                    data['name'] ?? 'No Name',
+                    style: GoogleFonts.quicksand(
+                        textStyle: const TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 20,
+                        )),
+                  ),
                 ),
                 IconButton(
                   onPressed: () {
