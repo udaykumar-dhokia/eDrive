@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1040391139063",
+    "project_id": "greenroute-e467c",
+    "storage_bucket": "greenroute-e467c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040391139063:android:44fc566469a1cb742fadf2",
+        "android_client_info": {
+          "package_name": "com.evhelper.greenroute"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZs0CNSfDxSP5zJBLTwjm3uSSnWAWzn8Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
