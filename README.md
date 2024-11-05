@@ -26,12 +26,6 @@
 
 ---
 
-## Screenshots
-
-[Insert screenshots of the app here, such as the home screen, station information screen, and navigation screen.]
-
----
-
 ## Getting Started
 
 To get started with eDrive, follow these steps to install and run the application on your device.
