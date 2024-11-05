@@ -1,4 +1,3 @@
-Here’s a complete README file for your eDrive project:
 
 ---
 
